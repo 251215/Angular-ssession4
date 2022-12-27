@@ -1,0 +1,32 @@
+ .menu{
+    list-style: none;
+    padding: 0;
+    background-color: blueviolet;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+
+ }
+ h1{
+    font-style: italic;
+    color: rgb(254 249 195);
+    background-color: rgb(56 189 248);
+    text-align: center;
+    font-size: 60px;
+ }
+ .menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+ }
+ .menu li{
+    margin-left: 90px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+ }
+
+ .menu li a:hover{
+    background-color: coral;
+ }

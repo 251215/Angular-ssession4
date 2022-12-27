@@ -1,0 +1,11 @@
+<section class="content sau">
+    <h2 class="title">Agregar otro producto</h2>
+        <div class="box-container">
+            <div class="box">             
+                <h3>Elegir un producto:<span>presiona en el siguiente icono</span></h3>
+                <button (click)="agregarproducto()"><i class="fab fa-angular"></i></button>
+                <h4>{{producto}}</h4>
+            </div>
+        </div>
+</section>
+<app-operacion [nombreProducto]="producto" (cambionombreProducto)="producto = $event"></app-operacion>
